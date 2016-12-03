@@ -1,0 +1,15 @@
+Jupyter file -- Plot infant mortality diseases
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+df = pd.read_csv('data.csv')
+df.head(5)
+
+df=df[df['Cause']=='Diarrheal diseases']
+df=df.groupby(['Location','Cause']).sum().reset_index()
+
+df.head(5)
+
+df.plot (x= "Location", y = "Value", kind='bar')
+plt.show()
