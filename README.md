@@ -7,7 +7,7 @@ For this purpose the webpage http://www.healthdata.org/ collects a lot of data t
 
 The IHME has built a data visualization website where the user can interact with variables by country/region, age group, year (1990-2015), and disease. Their visualization includes geographic maps and charts like treemaps and heat maps that help the user to understand the information in an easier way. After looking at the IHME website our goal was to create a similar webpage where the user could interact.
 
-The website allows the user to download data manually or using APIs. Since we wanted to download csv for different regions (according to the World Bank classification), using APIs would be helpful to save us time. We use json codes (see file) but they were ineffective because they downloaded different datasets from the ones that we wanted. Since we could not manage to use the APIs code in an efficient way we had to download the csv manually. 
+The website allows the user to download data manually or using APIs. Since we wanted to download csv for different regions (according to the World Bank classification), using APIs would be helpful to save us time. We use json codes (see health1.py file) but they were ineffective because they downloaded different datasets from the ones that we wanted. Since we could not manage to use the APIs code in an efficient way we had to download the csv manually. 
 
 Once we had downloaded the data, we thought about a plotting a bars graph that showed the level of mortality of each disease by region. The code for the graph can be seen in the jupyter file (plot infant mortality diseases).
 
