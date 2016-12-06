@@ -18,6 +18,7 @@ In webhealth (home) we include Our mission and the top 5 causes of the death wor
 The plots that we intended to include in our page can be seen in the Jupyter file. By playing with the different diseases, we can observe how in underdeveloped regions, diseases like diarrhea still represent a serious threat for infant mortality. We hope that policy makers and people that work on international development can use these data as insights to improve health services in underserved regions of the world. 
 
 ++ How to run it ++
-The files used to visualize the webpage require django. All the modules that have to be imported are specified in the atom files. The jupyter file requires also the data.csv file in order to show the graphs. 
+
+The files used to visualize the webpage require django. All the modules that have to be imported are specified in the atom files. The jupyter file requires also the data.csv file in order to show the graphs. Once you download the folder (git clone), go to the terminal and type python manage.py runserver (add --noreload if you are using Windows). Then go to your local host and type http://localhost:8000/myapp/webhealth/ Once you are there you will be able to navigate on the webpage. 
 
 
